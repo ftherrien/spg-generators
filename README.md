@@ -8,10 +8,8 @@ This repository contains crystallographic generators extracted from the [Bilbao 
   - Keys: space group numbers (1-230)
   - Values: sets of generator matrices (4x3 format)
 
-- **spg_embeddings** - File containing a disctionary withs keys "spacegroups" and "generators".
-  		     - "spacegroups" contains generator embedding (83) for each space groups (230) as a 230x83 matrix
-		     - "spacegroups" contains a 83x7 matrix of all generators where a generator is represented as a quaternion of length 4 (rotation/inversion) and a translation of length 3
+- **spg_embeddings** - File containing a dictionary withs keys "spacegroups" and "generators".
+  - `"spacegroups"`: Contains generator embedding (83) for each space groups (230) as a 230 x 83 matrix
+  - `"generators"`: Contains a 83 x 7 matrix of all generators where a generator is represented as a quaternion of length 4 (rotation/inversion) and a translation of length 3
 
-## Data Source
-
-Generators were extracted from the Bilbao Crystallographic Server.
+<img src="https://github.com/ftherrien/spg-generators/blob/main/spg_embeddings.png">
