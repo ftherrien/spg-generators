@@ -1,0 +1,125 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Generators of Space Groups</title>
+<link rev="made" href="mailto:eli%40wm.lc.ehu.es" />
+<link rel="stylesheet" type="text/css" href="/html/css/bcs_style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#ffffff">
+<table width="100%">
+  <tr>
+    <td bgcolor="#dddddd">
+      <small>
+        <a href="/">Bilbao Crystallographic Server</a> <img src="/html/gif/a.gif" alt="arrow"> Generators of Space Groups
+      </small>
+    </td>
+    <td bgcolor="#dddddd">
+      <small> 
+        <a href="/cryst/help/gens.html">Help</a> 
+      </small>
+   </td>
+  </tr>
+</table>
+<br>
+</head><script  type="text/JavaScript"  Language="JavaScript">
+var browserType;
+
+browserType = "ie";
+if (document.layers) {browserType = "nn4"}
+if (document.all) {browserType = "ie"}
+if (window.navigator.userAgent.toLowerCase().match("gecko")) {
+ browserType= "gecko"
+}
+
+function hide2(idd) {
+  if (browserType == "gecko" )
+     document.poppedLayer =
+         eval('document.getElementById("'+idd+'")');
+  else if (browserType == "ie")
+     document.poppedLayer =
+        eval('document.getElementById("'+idd+'")');
+  else
+     document.poppedLayer =
+        eval('document.layers["'+idd+'"]');
+  document.poppedLayer.style.display = "none";
+}
+
+function show2(idd) {
+  if (browserType == "gecko" )
+     document.poppedLayer =
+         eval('document.getElementById("'+idd+'")');
+  else if (browserType == "ie")
+     document.poppedLayer =
+        eval('document.getElementById("'+idd+'")');
+  else
+     document.poppedLayer =
+         eval('document.layers["'+idd+'"]');
+  document.poppedLayer.style.display = "inline";
+}
+
+function cambiarDisplay(id) {
+if (!document.getElementById) return false;
+fila = document.getElementById(id);
+if (fila.style.display != "none") {
+fila.style.display = "none"; //ocultar fila
+} else {
+fila.style.display = ""; //mostrar fila
+}
+}
+
+
+
+</script>
+
+</head><h2 align="center">Generators of the Group <i>A</i><i>e</i><i>m</i>2 (No. 39) </h2><center><b><u>Remark:</u></b> Although no listed, the translation generators <i>t</i>(1,0,0), <i>t</i>(0,1,0), <i>t</i>(0,0,1)<br> form part of the set of generators of <i>A</i><i>e</i><i>m</i>2<br><br></center><center><table border=5 cellpadding=10> <tr>   <td align="center" rowspan="2" bgcolor="#bbbbbb"><b>No.</b></td>   <td align="center" rowspan="2" bgcolor="#bbbbbb"><b>(x,y,z) form</b></td>   <td align="center" rowspan="2" bgcolor="#bbbbbb"><b>Matrix form</b></td>   <td colspan="2" align="center" bgcolor="#bbbbbb"><b>Symmetry operation</b></td></tr><tr>  <td align="center" bgcolor="#bbbbbb"><b>ITA</b></td>  <td align="center" bgcolor="#bbbbbb"><b>Seitz <a href="/html/cryst/help_pop-up/seitz_symbol_subperiodic.html" target="_blank" onClick="window.open(this.href, this.target, 'width=700,height=750'); return false;"><img src="/html/gif/info.gif" width="15" height="15"></b></td></tr><tr><td align="center" bgcolor="#F2F2F2" id="[   1   0   0 ] [    0]
+[   0   1   0 ] [    0]
+[   0   0   1 ] [    0]">1</td> <td align="center">&nbsp; &nbsp; x,y,z &nbsp; &nbsp; </td> <td bgcolor="#F2F2F2"><table bgcolor="#f2f2f2" border=0 cellpadding=2 cellspacing=0><tr><td><img src="/html/gif/paropen.png" alt="("></td><td><pre>   1   0   0    0
+   0   1   0    0
+   0   0   1    0</pre></td><td><img src="/html/gif/parclose.png" alt=")"></td></tr>
+</table></td> <td align="center">1   </td> <td align="center">{ 1 &#124 0 }</td></tr><tr><td align="center" bgcolor="#F2F2F2" id="[  -1   0   0 ] [    0]
+[   0  -1   0 ] [    0]
+[   0   0   1 ] [    0]">2</td> <td align="center">&nbsp; &nbsp; -x,-y,z &nbsp; &nbsp; </td> <td bgcolor="#F2F2F2"><table bgcolor="#f2f2f2" border=0 cellpadding=2 cellspacing=0><tr><td><img src="/html/gif/paropen.png" alt="("></td><td><pre>  -1   0   0    0
+   0  -1   0    0
+   0   0   1    0</pre></td><td><img src="/html/gif/parclose.png" alt=")"></td></tr>
+</table></td> <td align="center">2  0,0,z </td> <td align="center">{ 2<sub>001</sub> &#124; 0 }</td></tr><tr><td align="center" bgcolor="#F2F2F2" id="[   1   0   0 ] [    0]
+[   0  -1   0 ] [  1/2]
+[   0   0   1 ] [    0]">3</td> <td align="center">&nbsp; &nbsp; x,-y+1/2,z &nbsp; &nbsp; </td> <td bgcolor="#F2F2F2"><table bgcolor="#f2f2f2" border=0 cellpadding=2 cellspacing=0><tr><td><img src="/html/gif/paropen.png" alt="("></td><td><pre>   1   0   0    0
+   0  -1   0   1/2
+   0   0   1    0</pre></td><td><img src="/html/gif/parclose.png" alt=")"></td></tr>
+</table></td> <td align="center">m  x,1/4,z </td> <td align="center">{ m<sub>010</sub> &#124; 0 1/2 0 }</td></tr><tr><td align="center" bgcolor="#F2F2F2" id="[   1   0   0 ] [    0]
+[   0   1   0 ] [  1/2]
+[   0   0   1 ] [  1/2]">4</td> <td align="center">&nbsp; &nbsp; x,y+1/2,z+1/2 &nbsp; &nbsp; </td> <td bgcolor="#F2F2F2"><table bgcolor="#f2f2f2" border=0 cellpadding=2 cellspacing=0><tr><td><img src="/html/gif/paropen.png" alt="("></td><td><pre>   1   0   0    0
+   0   1   0   1/2
+   0   0   1   1/2</pre></td><td><img src="/html/gif/parclose.png" alt=")"></td></tr>
+</table></td> <td align="center">t (0,1/2,1/2)  </td> <td align="center">{ 1 &#124 0 1/2 1/2 }</td></tr></table></center><br>
+<br>
+<table bgcolor="#dddddd" width="100%">
+  <tr>
+    <td align="left">
+       <table>
+        <tr>
+         <td><small><a href="http://www.cryst.ehu.es">Bilbao Crystallographic Server</a><br>http://www.cryst.ehu.es</small></td>
+         <td>
+           <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+         </td>
+        </tr>
+       </table>
+      <!--small>
+       <a href="http://www.cryst.ehu.es">Bilbao Crystallographic Server</a><br>
+           http://www.cryst.ehu.es
+      </small-->
+    </td>
+    <td align="right" rowspan="2"> 
+      <small>
+        For comments, please mail to<br>
+        <a href="mailto:administrador.bcs@ehu.eus">administrador.bcs@ehu.eus</a>
+      </small>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
