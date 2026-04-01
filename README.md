@@ -4,13 +4,13 @@ This repository contains crystallographic generators extracted from the [Bilbao 
 
 ## Contents
 
-- **generator_database.json** - Main data file containing generators for each space group
+- **generator_database.json** - File containing generators for each space group
   - Keys: space group numbers (1-230)
   - Values: sets of generator matrices (4x3 format)
 
-## Format
-
-Each space group entry contains a list of 4×3 matrices representing the generators for that crystallographic space group.
+- **spg_embeddings** - File containing a disctionary withs keys "spacegroups" and "generators".
+  		     - "spacegroups" contains generator embedding (83) for each space groups (230) as a 230x83 matrix
+		     - "spacegroups" contains a 83x7 matrix of all generators where a generator is represented as a quaternion of length 4 (rotation/inversion) and a translation of length 3
 
 ## Data Source
 
