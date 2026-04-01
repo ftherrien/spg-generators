@@ -1,6 +1,6 @@
 # Space Group Generators Database
 
-This repository contains crystallographic generators extracted from the [Bilbao Crystallographic Server](https://www.cryst.ehu.es/) for all 230 space groups.
+This repository contains crystallographic generators extracted from the [Bilbao Crystallographic Server](https://cryst.ehu.es/index.html) for all 230 space groups.
 
 ## Contents
 
